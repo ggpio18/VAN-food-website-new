@@ -72,6 +72,72 @@ img {
   }
   /*banner  img */
 
+  /* category */
+  .category{
+    padding: 8rem;
+  }
+  .cat__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+  .cat__title{
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .cat__title h1{
+    font-size: 4rem;
+    color: #3a3a3a;
+  }
+  .cat__title p{
+    font-size: 1.5rem;
+    color: #979797;
+  }
+  .cat__img{
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .cat__footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, .35) 50%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    padding: 70px 20px 20px;
+    text-align: center;
+    color: #f9e9d7;
+  }
+
+
+
+/* newsletter */
+.cta{
+  background-image: linear-gradient(rgba(58, 58, 58, 0.5), rgba(61, 61, 61, 0.5)), url("./assets/images/newsletter-bg.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cta .cta__wrapper{
+  text-align: center;
+  line-height: 3.4rem;
+}
+ .email__btn{
+  display: flex;
+  justify-content: center;
+}
+input#email {
+  width: 400px;
+  border-right: 1px #ccc;
+  border-top: 1px #ccc;
+  border-left: 1px #ccc;
+  border-bottom: 1px #ccc;
+}
   /* footer */
   .row{
 	display: flex;
@@ -246,3 +312,16 @@ ul{
       background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
     }
   }
+
+  /* anotther btn */
+  .btn{
+    background-color: var(--clr-accent);
+    border: transparent;
+    padding: 1rem 2rem;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+    color: var(--clr-light);
+    font-weight: 100;
+    font-family: var(--font-primary);
+  }
+
+
