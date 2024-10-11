@@ -86,7 +86,7 @@ img {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background: #2b2b2b;
   transition: .3s;
