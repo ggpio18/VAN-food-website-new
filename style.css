@@ -51,9 +51,56 @@ img {
 
   
 /*header */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: var(--clr-accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+.logo{
+  font-size: 32px;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar .nav_item{
+  position: relative;
+  font-style: 18px;
+  color: #2b2b2b;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+
+.navbar .nav_item::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #2b2b2b;
+  transition: .3s;
+}
+
+.navbar .nav_item:hover::before{
+  width: 100%;
+}
+
+
 
 /* banner */
 .banner{
+    margin-top: 8rem;
     padding: 10rem 0;
     background-color: var(--clr-border);
   }
