@@ -187,7 +187,7 @@ img {
 }
 
 
-/* .navbar .nav_item::before{
+ .navbar .nav_item::before{
   content: '';
   position: absolute;
   top: 100%;
