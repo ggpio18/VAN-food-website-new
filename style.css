@@ -85,7 +85,7 @@ img {
 }
 
 /* HEADER RESPONSIVE*/
-.header .toggle__menu {
+/* .header .toggle__menu {
   display: none;
 }
 
@@ -156,8 +156,8 @@ img {
     transform: translate(0, -7px) rotate(-230deg);
     transition: 0.5s ease;
   }
-}
-/* .header{
+} */
+.header{
   position: fixed;
   top: 0;
   left: 0;
@@ -200,7 +200,7 @@ img {
 
 .navbar .nav_item:hover::before{
   width: 100%;
-} */ */
+} 
 
 
 
