@@ -223,6 +223,7 @@ img {
     font-family: var(--font-secondary);
     font-weight: 700;
   }
+  
   /*counter section*/
   .counter-wrapper{
     background: url(img/success2.jpg);
