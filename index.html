@@ -15,9 +15,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"/>
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <!-- tns-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-        <link rel="stylesheet" href="./dist/css/main.min.css">
+
+      <!-- slick slider -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     </head>
 <body>
     <!-- header -->
@@ -150,76 +152,20 @@
     </div>
 
     <!-- slider -->
-    <section class="trending">
+     <div class="container">
+        <div class="your-class">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+          </div>
+</div>
+
+    <!-- slider boiler plate -->
+    <div class="slider">
         <div class="container">
-            <div class="block__header">
-                <h2>Trending today</h2>
-                <a href="#">View All</a>
-            </div>
-        
-        <div class="trending__slider">
-            <div class="trending__card">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="card__info">
-                    <ul>
-                        <li>feb 2 </li>
-                        <li><i class="fas fa-circle"></i></li>
-                        <li>5 mins</li>
-                    </ul>
-                    <small>By: Ellen josh</small>
-                </div>
-                <a href="#">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, adipisci!</h4>
-                </a>
-            </div>
-            <div class="trending__card">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="card__info">
-                    <ul>
-                        <li>feb 2 </li>
-                        <li><i class="fas fa-circle"></i></li>
-                        <li>5 mins</li>
-                    </ul>
-                    <small>By: Ellen josh</small>
-                </div>
-                <a href="#">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, adipisci!</h4>
-                </a>
-            </div>
-
-            <div class="trending__card">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="card__info">
-                    <ul>
-                        <li>feb 2 </li>
-                        <li><i class="fas fa-circle"></i></li>
-                        <li>5 mins</li>
-                    </ul>
-                    <small>By: Ellen josh</small>
-                </div>
-                <a href="#">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, adipisci!</h4>
-                </a>
-            </div>
-
-            <div class="trending__card">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="card__info">
-                    <ul>
-                        <li>feb 2 </li>
-                        <li><i class="fas fa-circle"></i></li>
-                        <li>5 mins</li>
-                    </ul>
-                    <small>By: Ellen josh</small>
-                </div>
-                <a href="#">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, adipisci!</h4>
-                </a>
-            </div>
-           
+            .
         </div>
     </div>
-    </section>
 
     <!-- cta -->
      <section class="cta">
@@ -281,33 +227,26 @@
         </div>
    </footer>
     
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+   $('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+  </script>
+
     <script src="script.js"></script>
-    <!-- tns slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
-    <script>
-    var slider = tns({
-    container: '.trending__slider',
-    items: 1,
-    slideBy: 'page',
-    autoplay: true,
-    autoplayHoverPause: true,
-    autoplayTimeout: 3500,
-    autoplayButtonOuput: false,
-    nav: false,
-    controls: false,
-    controlsText: [
-          '<i class="fas fa-arrow-left-long"></i>',
-          '<i class="fas fa-arrow-right-long"></i>',
-        ],
-        responsive: {
-          420: {
-            items: 3,
-            gutter: 20
-          },
-        },
-     });
-    </script>
+
+   
+  
 
 
 
