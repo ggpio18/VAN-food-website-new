@@ -439,14 +439,32 @@ ul{
 }
 
 /* FAQ */
-/* .faq{
+.faq{
   padding: 5rem;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.faq__title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
 }
 .faq__wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-} */
+  align-items: center;
+  gap: 3rem;
+
+}
+.faq__par{
+  margin-bottom: 2.5rem;
+}
+.faq__list li{
+  display: flex;
+  gap: 1rem;
+}
 
 
 
